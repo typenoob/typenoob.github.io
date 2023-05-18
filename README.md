@@ -1,6 +1,6 @@
-# varHarrie's Blog
+# coyote's Blog
 
-Personal blog site based on github issues.
+Personal blog site based on github issues forking from varHarrie.
 
 ## Features
 
