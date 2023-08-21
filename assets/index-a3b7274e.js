@@ -49728,7 +49728,7 @@ class KSe {
     return this.request('GET', `/users/${this.owner}/repos`, a);
   }
 }
-const key = window.atob('Z2hwX09vM0lBMWllTGZXUW1obDRZMVVBaFJGVlpSRTc3eDBMSnczeg=='),
+const key = window.atob('Z2hwX0JWaVRYbkxMUnFTMmVhVnFhZmp3dVRwYTN4aFVqdTFFNEtZUQ=='),
   Ha = new KSe(key, 'typenoob', 'typenoob.github.io'),
   exe = V.article({
     marginLeft: 'auto',
