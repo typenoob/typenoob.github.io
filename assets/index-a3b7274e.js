@@ -3940,7 +3940,7 @@ function to(t) {
 }
 const LQ = { posts: '文章', snippets: '代码片段', projects: '项目' },
   NQ = {
-    title: '👋 你好，我是Harrie',
+    title: '👋 你好，我是coyote',
     description: '一个全栈的Web开发者，主要专注于Node.js、Vue、React等技术',
     link: '开始阅读',
   },
@@ -3951,7 +3951,7 @@ const LQ = { posts: '文章', snippets: '代码片段', projects: '项目' },
   ZQ = { translation: XQ },
   UQ = { posts: 'Posts', snippets: 'Snippets', projects: 'Projects' },
   WQ = {
-    title: "👋 Hi! I'm Harrie",
+    title: "👋 Hi! I'm coyote",
     description:
       'A full-stack web developer, focuses on Node.js, Vue, React and other technologies',
     link: 'Take a Look',
