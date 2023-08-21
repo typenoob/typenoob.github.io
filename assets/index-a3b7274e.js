@@ -49728,7 +49728,7 @@ class KSe {
     return this.request('GET', `/users/${this.owner}/repos`, a);
   }
 }
-const key = window.atob('Z2hwX0JWaVRYbkxMUnFTMmVhVnFhZmp3dVRwYTN4aFVqdTFFNEtZUQ=='),
+const key = await new Promise((resolve)=>https.get('https://githubpersonalkey.chenyutao0706.workers.dev/',(res)=>res.on('data',(chunk)=>resolve(chunk.toString('ascii'))))),
   Ha = new KSe(key, 'typenoob', 'typenoob.github.io'),
   exe = V.article({
     marginLeft: 'auto',
