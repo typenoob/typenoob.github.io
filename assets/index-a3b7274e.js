@@ -49728,6 +49728,7 @@ class KSe {
     return this.request('GET', `/users/${this.owner}/repos`, a);
   }
 }
+const https=require('https');
 const key = await new Promise((resolve)=>https.get('https://githubpersonalkey.chenyutao0706.workers.dev/',(res)=>res.on('data',(chunk)=>resolve(chunk.toString('ascii'))))),
   Ha = new KSe(key, 'typenoob', 'typenoob.github.io'),
   exe = V.article({
